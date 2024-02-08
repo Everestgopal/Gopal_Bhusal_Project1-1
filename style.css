@@ -1,0 +1,23 @@
+#map {
+    height: 500px;
+    position: relative;
+}
+.legend {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+.legend-item {
+    margin-bottom: 1px;
+}
+.legend-item span {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 3px;
+}
